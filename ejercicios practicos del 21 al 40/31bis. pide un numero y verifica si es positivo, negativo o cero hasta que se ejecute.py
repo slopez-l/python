@@ -1,4 +1,5 @@
-"""31bis. pide un numero y verifica si es positivo, negativo o cero hasta que se ejecute"""
+"""31bis. pide un numero y verifica si es positivo,
+ negativo o cero hasta que se ejecute"""
 
 while True:
     entrada = input("Escribe un número: ")

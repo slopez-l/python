@@ -5,6 +5,6 @@ numero = int(input("escibe un numero"))
 suma = 0
 i = 1
 while i <= numero:
-	suma += i
-	i += 1
+    suma += i
+    i += 1
 print("la suma es ", suma)

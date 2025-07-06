@@ -2,8 +2,11 @@
 
 import math
 
+
 def area_circulo(radio):
-	return math.pi * radio ** 2
+
+    return math.pi * radio ** 2
+
 
 resulatdo = area_circulo(5)
 print(resulatdo)

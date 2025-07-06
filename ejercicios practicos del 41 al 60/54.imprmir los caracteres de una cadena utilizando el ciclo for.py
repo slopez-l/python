@@ -3,4 +3,4 @@
 cadena = "hola mundo"
 
 for i in cadena:
-	print(i)
+    print(i)

@@ -4,6 +4,5 @@
 lista = [6, 8, 10, 4, 25]
 ordenada = sorted(lista)
 
-print("original:", lista)		# [6, 8, 10, 4, 25]
-print("ordenada:", ordenada)	# [4, 6, 8, 10, 25]
-
+print("original:", lista)  # [6, 8, 10, 4, 25]
+print("ordenada:", ordenada)  # [4, 6, 8, 10, 25]

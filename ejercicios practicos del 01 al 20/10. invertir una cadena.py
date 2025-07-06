@@ -3,4 +3,4 @@
 cadena = 'cadena'
 invertir = cadena[::-1]
 
-print("cadena inversa" , invertir)
+print("cadena inversa", invertir)

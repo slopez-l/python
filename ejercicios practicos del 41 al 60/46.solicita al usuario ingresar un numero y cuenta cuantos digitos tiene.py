@@ -4,6 +4,6 @@
 numero = int(input("ingresa un numero = "))
 contador = 0
 while numero != 0:
-	numero = numero // 10 #division entera
-	contador = contador + 1
+    numero = numero // 10  # division entera
+    contador = contador + 1
 print("digitos son ", contador)

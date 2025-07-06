@@ -3,4 +3,4 @@
 cadena = 'programacion'
 ocurrencias = cadena.count('a')
 
-print('ocurrencias' , ocurrencias)
+print('ocurrencias', ocurrencias)

@@ -3,4 +3,4 @@
 lista = [3, 6, 9, 12]
 
 for i in range(len(lista)):
-	print(lista[i] * 2)
+    print(lista[i] * 2)

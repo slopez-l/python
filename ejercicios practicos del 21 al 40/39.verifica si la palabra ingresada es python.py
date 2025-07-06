@@ -3,7 +3,6 @@
 palabra = input("ingresa palabra")
 
 if palabra.lower() == "python":
-	print("es correcto")
+    print("es correcto")
 else:
-	print("no es correcto")
-
+    print("no es correcto")

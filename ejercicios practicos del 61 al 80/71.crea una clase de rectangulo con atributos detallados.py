@@ -9,18 +9,20 @@ develve el area del rectangulo
 ** clacular_perimetro(self): calcula y
 devuelve el perimetro del rectangulo"""
 
+
 class Rectangulo:
-	def __init__(self, base, altura):
-		self.base = base
-		self.altura = altura
+    def __init__(self, base, altura):
+        self.base = base
+        self.altura = altura
 
-	def calcular_area(self):
-		return self.base * self.altura
+    def calcular_area(self):
+        return self.base * self.altura
 
-	def calcular_perimetro(self):
-		return 2 * (self.base + self.altura)
+    def calcular_perimetro(self):
+        return 2 * (self.base + self.altura)
 
-rectangulo1 = Rectangulo(5,3)
+
+rectangulo1 = Rectangulo(5, 3)
 
 print(f"Area: {rectangulo1.calcular_area()}")
 print(f"Perimetro: {rectangulo1.calcular_perimetro()}")

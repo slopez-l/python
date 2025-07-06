@@ -5,21 +5,23 @@ La clase Estudiante debe heredar la clase
 Persona y utilizar el metodo mostrar_nombre()
 de la clase Persona."""
 
-class Persona:
 
+class Persona:
     def __init__(self, nombre):
         self.nombre = nombre
 
     def mostrar_nombre(self):
         print(self.nombre)
 
-class Estudiante(Persona):  #esta es la herencia.
+
+class Estudiante(Persona):  # esta es la herencia.
 
     def __init__(self, nombre):
         super().__init__(nombre)
 
     def mostrar(self):
         super().mostrar_nombre()
+
 
 Estudiante1 = Estudiante("jose")
 Estudiante1.mostrar_nombre()

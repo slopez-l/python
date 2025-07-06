@@ -6,8 +6,8 @@
  interpretacion del sonido como un perro seria
  "guau."""
 
-class Animal:
 
+class Animal:
     def __init__(self, especie, nombre):
         self.especie = especie
         self.nombre = nombre
@@ -19,6 +19,8 @@ class Animal:
             print("Miau!")
         else:
             print(".....")
+
+
 perro = Animal("perro", "bimba")
 gato = Animal("gato", "Misa")
 

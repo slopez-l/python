@@ -8,19 +8,22 @@ develve el area del circulo
 * clacular_perimetro(self): calcula y
 devuelve el perimetro del circulo"""
 
+
 import math
 
+
 class Circulo:
-	def __init__(self, radio):
-		self.radio = radio
+    def __init__(self, radio):
+        self.radio = radio
 
-	def calcular_area(self):
-		return math.pi * self.radio**2
+    def calcular_area(self):
+        return math.pi * self.radio**2
 
-	def calcular_perimetro(self):
-		return 2 * math.pi * self.radio
+    def calcular_perimetro(self):
+        return 2 * math.pi * self.radio
+
 
 circulo1 = Circulo(5)
 
-print(f"el area es : { circulo1.calcular_area() }")
+print(f"el area es : {circulo1.calcular_area()}")
 print(f"perimetro: {circulo1.calcular_perimetro()}")
